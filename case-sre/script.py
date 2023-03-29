@@ -18,6 +18,7 @@ for line in open('logs.txt'):
 
 with open('output.json', 'w') as f:
     json.dump(data, f, indent=4)
+    
 
 
 
